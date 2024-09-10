@@ -1,0 +1,15 @@
+{
+  "name": "crypto-quest-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "check-balance": "node checkBalance.js",
+    "send": "node sendTokens.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.2"
+  }
+}
