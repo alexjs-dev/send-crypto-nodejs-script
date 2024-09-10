@@ -66,9 +66,9 @@ const processParallel = async (wallets) => {
 };
 
 const processSequential = async (wallets) => {
-  for (const [index, wallet] of wallets.entries()) {
+  for (const wallet of wallets) {
     try {
-      await runWorker(wallet, index);
+      await runWorker(wallet, wallets.indexOf(wallet));
     } catch (error) {
       console.error(
         `Error processing wallet ${wallet.address}: ${error.message}`
