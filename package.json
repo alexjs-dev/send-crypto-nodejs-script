@@ -1,13 +1,13 @@
 {
-  "name": "crypto-quest-6",
+  "name": "send-crypto-nodejs-script",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "check-balance": "node checkBalance.js",
     "send": "node sendTokens.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Aleksei Dmitrijev",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "ethers": "^6.13.2"
